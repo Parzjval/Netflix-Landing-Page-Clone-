@@ -163,7 +163,7 @@ For unidirectional alignment, go with translateX(-50%) or translateY(-50%) inste
   padding: 1.5rem 0;
 }
 
-.tabs .container > div :hover {
+.tabs .container > div:hover {
   color: white;
   cursor: pointer;
 }
@@ -179,8 +179,8 @@ For unidirectional alignment, go with translateX(-50%) or translateY(-50%) inste
 #tab-2-content .tab-2-content-top {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-gap: 1rem;
   justify-content: center;
+  grid-gap: 1rem;
   align-items: center;
 }
 
